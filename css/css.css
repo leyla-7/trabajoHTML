@@ -34,6 +34,7 @@ header {
 /* Estilo del logo */
 .logo img {
     height: 80px; /* Altura del logo */
+    width: fit-content;
     margin-right: 20px; /* Espacio entre el logo y la barra de navegación */
 }
 
@@ -77,6 +78,7 @@ header {
 
 /* Estilo para la imagen de la página principal */
 #maincover {
+    width: fit-content;
     height: 300px;
     padding-top: 0;
     padding-bottom: 20px;
@@ -87,7 +89,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.main section {
+div .section {
     display: flex;
     align-items:center;
     justify-content: center; /* Centra los elementos horizontalmente dentro de un contenedor flexbox */
@@ -247,6 +249,7 @@ footer {
 /* Iconos de redes sociales */
 .redesicons img {
     height: 30px;
+    width: 30px;
     padding-left: 20px;
 }
 
